@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+html{ scroll-behavior: smooth;}
+body{
+    background: #080808;
+    color: #fff;
+}
+
+
+#work{
+    padding: 50px 50px;
+    justify-content: space-evenly;
+}
+.work{
+    border-radius: 10px;
+    position: relative;
+    float: inline-start;
+    display: block;
+    
+    
+}
+.work img{
+   
+    border-radius: 10px;
+    display: block;
+    position: relative;
+    
+}
+
+.btn{
+    display: block;
+    margin: 100px -425px;
+    width: fit-content;
+    border: 1px solid #ff004f;
+    padding: 10px 50px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #fff;
+    transition: background 0.5s ;
+}
+.btn:hover{
+    background: #ff004f;
+}
